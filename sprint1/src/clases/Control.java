@@ -23,6 +23,5 @@ public class Control {
 			
 			aula[planta][classRoom].alarma = true;
 		}
-		
 	}
 }
