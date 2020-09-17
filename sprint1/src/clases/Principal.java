@@ -20,6 +20,8 @@ public class Principal {
 		{
 			int planta = (int)((Math.random() * 3 + 1));
 			int classRoom = (int)((Math.random() * 16 + 1));
+			
+			aula[planta][classRoom].alarma = true;
 		}
 		
 	}
