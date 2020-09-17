@@ -2,15 +2,15 @@ package clases;
 
 public class Calefactor 
 {
-	String nombreAula;
+	int aula;
 
-	public Calefactor(String nombreAula) 
+	public Calefactor(int aula) 
 	{
-		this.nombreAula = nombreAula;
+		this.aula = aula;
 	}
 
-	public String getNombreAula() 
+	public int getAula() 
 	{
-		return nombreAula;
+		return aula;
 	}
 }

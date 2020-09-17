@@ -2,15 +2,15 @@ package clases;
 
 public class Alarma 
 {	
-	String nombreAula;
+	int aula;
 
-	public Alarma(String nombreAula) 
+	public Alarma(int aula) 
 	{
-		this.nombreAula = nombreAula;
+		this.aula = aula;
 	}
 
-	public String getNombreAula() 
+	public int getNombreAula() 
 	{
-		return nombreAula;
+		return aula;
 	}
 }
