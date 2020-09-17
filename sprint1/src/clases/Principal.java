@@ -14,7 +14,13 @@ public class Principal {
 			}
 		
 		//Activación random de alarmas
+		int numAlarmas = (int) ((Math.random() * 20 + 1));
+		
+		for(int i = numAlarmas; i >= 0; i--)
+		{
+			int planta = (int)((Math.random() * 3 + 1));
+			int classRoom = (int)((Math.random() * 16 + 1));
+		}
 		
 	}
-	
 }
