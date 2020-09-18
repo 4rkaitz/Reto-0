@@ -1,7 +1,7 @@
 package clases;
 
-public class Control {
-
+public class Control 
+{
 	public static void main(String[] args) 
 	{
 		//Inicialización de array de alarmas (101 - 116, 201 - 216 ...)
