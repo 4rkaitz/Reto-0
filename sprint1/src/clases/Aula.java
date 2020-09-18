@@ -3,9 +3,9 @@ package clases;
 public class Aula 
 {	
 	int aula;
-	boolean alarma = false;
-	boolean calefactor = false;
-
+	boolean alarma = false; //ON = true, OFF = false
+	boolean calefactor = false; //ON = true, OFF = false
+	
 	public Aula(int aula) 
 	{
 		this.aula = aula;
@@ -16,7 +16,8 @@ public class Aula
 		return aula;
 	}
 	
-	public boolean getCalefactor() {
+	public boolean getCalefactor() 
+	{
 		return calefactor;
 	}
 }
