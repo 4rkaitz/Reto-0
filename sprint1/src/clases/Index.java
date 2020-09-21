@@ -17,7 +17,7 @@ import javax.swing.ImageIcon;
 import java.awt.Color;
 import java.awt.Font;
 
-public class Index extends JFrame {
+public class Index extends JFrame implements ActionListener{
 
 	private JPanel contentPane;
 	private JLayeredPane panelInicio;
@@ -127,8 +127,7 @@ public class Index extends JFrame {
 	private JButton btnClase48;
 	private ArrayList<JLabel> alarmas = new ArrayList<JLabel>();
 	
-	
-	
+		
 	
 	
 
@@ -311,6 +310,7 @@ public class Index extends JFrame {
 		btnClaseAlarma10.setFont(new Font("Tahoma", Font.PLAIN, 9));
 		btnClaseAlarma10.setBackground(new Color(102, 255, 102));
 		btnClaseAlarma10.setBounds(332, 95, 47, 14);
+		btnClaseAlarma10
 		panelAlarmas.add(btnClaseAlarma10);
 		
 		btnClaseAlarma9 = new JLabel("");
@@ -875,6 +875,8 @@ public class Index extends JFrame {
 		panelCalefaccion.add(lblNewLabel_1);
 		
 		
+		
+		
 		//ActionLIsteners
 		btnAlarmas.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -903,6 +905,12 @@ public class Index extends JFrame {
 				panelCalefaccion.setVisible(false);
 			}
 		});
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		e.ge
+		
 	}
 	
 }
