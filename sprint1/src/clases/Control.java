@@ -14,13 +14,25 @@ public class Control
 			aulas[i].aula = i;
 		}
 		
+		int in = 2;
+		
+		if(aulas[in].calefactor == 0) 
+		{
+			aulas[in].calefactor = 1;
+		}
+		else
+		{
+			aulas[in].calefactor = 0;
+		}
+			
+		
 		//ALARMAS
 		try 
 		{
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:...","user..","pwd...");  
 			Statement stmt=con.createStatement();  
-			ResultSet rs=stmt.executeQuery("SELECT idAula, fechaHora FROM reto_o");  
+			ResultSet rs=stmt.executeQuery("SELECT idAula, fechaHora FROM reto_0");  
 			
 			if(rs.first())
 			{
@@ -28,7 +40,7 @@ public class Control
 				{
 					int activeA = rs.getInt("idAula");
 					
-					/*ArrayList[activeA].setBackground(255,0,0);
+					/*ArrayList[activeA].setBackground(new Color(255,0,0));
 					 * */
 				}while(rs.next());
 			}
@@ -49,7 +61,7 @@ public class Control
 				{
 					int activeA = rs1.getInt("idAula");
 					
-					/*ArrayList[activeA].setBackground(255,0,0);
+					/*ArrayList[activeA].setBackground(new Color(255,0,0));
 					 * */
 				}while(rs1.next());
 			}

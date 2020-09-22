@@ -3,8 +3,8 @@ package clases;
 public class Aula 
 {	
 	int aula;
-	boolean alarma = false; //ON = true, OFF = false
-	boolean calefactor = false; //ON = true, OFF = false
+	int alarma = 0; //ON = true, OFF = false
+	int calefactor = 0; //ON = true, OFF = false
 	
 	public Aula(int aula) 
 	{
@@ -16,7 +16,7 @@ public class Aula
 		return aula;
 	}
 	
-	public boolean getCalefactor() 
+	public int getCalefactor() 
 	{
 		return calefactor;
 	}
