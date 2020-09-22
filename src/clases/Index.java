@@ -137,10 +137,6 @@ public class Index extends JFrame implements ActionListener{
 	private ArrayList<JLabel> alarmas = new ArrayList<JLabel>();
 	private ArrayList<JButton> calefactores = new ArrayList<JButton>();
 	private static Aula aulas[];
-		
-	
-	
-
 	/**
 	 * Launch the application.
 	 */
@@ -155,21 +151,12 @@ public class Index extends JFrame implements ActionListener{
 				}
 			}
 		});
-		
 		//Inicialización de array de alarmas (101 - 116, 201 - 216 ...)
-
 				aulas = new Aula[48];
 				
 				for(int i = 0; i < aulas.length; i++)
-
-				{
-					
 					aulas[i]= new Aula(i);
-					
-
-				}
 	}
-
 	/**
 	 * Create the frame.
 	 */
@@ -195,7 +182,6 @@ public class Index extends JFrame implements ActionListener{
 		
 		JLabel lblNewLabel_2 = new JLabel("");
 		lblNewLabel_2.setHorizontalAlignment(SwingConstants.CENTER);
-		
 		
 		lblNewLabel_2.setIcon(new ImageIcon("img/txurdinagaLogo.png"));
 		lblNewLabel_2.setBounds(10, 10, 456, 186);
@@ -606,593 +592,299 @@ public class Index extends JFrame implements ActionListener{
 		panelCalefaccion.add(btnMenuCalefaccion);
 		
 		btnClase1 = new JButton("");
-
 		btnClase1.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase1.setBackground(Color.RED);
-
 		btnClase1.setBounds(116, 113, 75, 14);
-
 		btnClase1.addActionListener(this);
-
 		panelCalefaccion.add(btnClase1);
 
-		
-
 		btnClase2 = new JButton("");
-
 		btnClase2.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase2.setBackground(Color.RED);
-
 		btnClase2.setBounds(192, 113, 75, 14);
-
 		btnClase2.addActionListener(this);
-
 		panelCalefaccion.add(btnClase2);
-
-		
-
+	
 		btnClase3 = new JButton("");
-
 		btnClase3.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase3.setBackground(Color.RED);
-
 		btnClase3.setBounds(116, 135, 75, 14);
-
 		btnClase3.addActionListener(this);
-
 		panelCalefaccion.add(btnClase3);
-
 		
-
 		btnClase4 = new JButton("");
-
 		btnClase4.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase4.setBackground(Color.RED);
-
 		btnClase4.setBounds(192, 135, 75, 14);
-
 		btnClase4.addActionListener(this);
-
 		panelCalefaccion.add(btnClase4);
 
-		
-
 		btnClase17 = new JButton("");
-
 		btnClase17.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase17.setBackground(Color.RED);
-
 		btnClase17.setBounds(116, 264, 75, 14);
-
 		btnClase17.addActionListener(this);
-
 		panelCalefaccion.add(btnClase17);
-
 		
-
 		btnClase18 = new JButton("");
-
 		btnClase18.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase18.setBackground(Color.RED);
-
 		btnClase18.setBounds(192, 264, 75, 14);
-
 		btnClase18.addActionListener(this);
-
 		panelCalefaccion.add(btnClase18);
 
-		
-
 		btnClase48 = new JButton("");
-
 		btnClase48.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase48.setBackground(Color.RED);
-
 		btnClase48.setBounds(116, 288, 75, 14);
-
 		btnClase48.addActionListener(this);
-
 		panelCalefaccion.add(btnClase48);
 
-		
-
 		btnClase19 = new JButton("");
-
 		btnClase19.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase19.setBackground(Color.RED);
-
 		btnClase19.setBounds(192, 288, 75, 14);
-
 		btnClase19.addActionListener(this);
-
 		panelCalefaccion.add(btnClase19);
 
-		
-
 		btnClase32 = new JButton("");
-
 		btnClase32.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase32.setBackground(Color.RED);
-
 		btnClase32.setBounds(116, 412, 68, 14);
-
 		btnClase32.addActionListener(this);
-
 		panelCalefaccion.add(btnClase32);
 
-		
-
 		btnClase33 = new JButton("");
-
 		btnClase33.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase33.setBackground(Color.RED);
-
 		btnClase33.setBounds(192, 412, 68, 14);
-
 		btnClase33.addActionListener(this);
-
 		panelCalefaccion.add(btnClase33);
 
-		
-
 		btnClase34 = new JButton("");
-
 		btnClase34.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase34.setBackground(Color.RED);
-
 		btnClase34.setBounds(116, 432, 68, 14);
-
 		btnClase34.addActionListener(this);
-
 		panelCalefaccion.add(btnClase34);
-
 		
-
 		btnClase35 = new JButton("");
-
 		btnClase35.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase35.setBackground(Color.RED);
-
 		btnClase35.setBounds(192, 436, 68, 14);
-
 		btnClase35.addActionListener(this);
-
 		panelCalefaccion.add(btnClase35);
-
 		
-
 		btnClase5 = new JButton("");
-
 		btnClase5.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase5.setBackground(Color.RED);
-
 		btnClase5.setBounds(265, 66, 47, 14);
-
 		btnClase5.addActionListener(this);
-
 		panelCalefaccion.add(btnClase5);
 
-		
-
 		btnClase7 = new JButton("");
-
 		btnClase7.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase7.setBackground(Color.RED);
-
 		btnClase7.setBounds(265, 80, 47, 17);
-
 		btnClase7.addActionListener(this);
-
 		panelCalefaccion.add(btnClase7);
-
 		
-
 		btnClase9 = new JButton("");
-
 		btnClase9.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase9.setBackground(Color.RED);
-
 		btnClase9.setBounds(265, 95, 47, 17);
-
 		btnClase9.addActionListener(this);
-
 		panelCalefaccion.add(btnClase9);
-
 		
-
 		btnClase10 = new JButton("");
-
 		btnClase10.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase10.setBackground(Color.RED);
-
 		btnClase10.setBounds(315, 98, 47, 14);
-
 		btnClase10.addActionListener(this);
-
 		panelCalefaccion.add(btnClase10);
-
 		
-
 		btnClase8 = new JButton("");
-
 		btnClase8.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase8.setBackground(Color.RED);
-
 		btnClase8.setBounds(315, 80, 47, 17);
-
 		btnClase8.addActionListener(this);
-
 		panelCalefaccion.add(btnClase8);
-
 		
-
 		btnClase6 = new JButton("");
-
 		btnClase6.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase6.setBackground(Color.RED);
-
 		btnClase6.setBounds(315, 66, 47, 14);
-
 		btnClase6.addActionListener(this);
-
 		panelCalefaccion.add(btnClase6);
-
 		
-
 		btnClase11 = new JButton("");
-
 		btnClase11.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase11.setBackground(Color.RED);
-
 		btnClase11.setBounds(265, 147, 47, 17);
-
 		btnClase11.addActionListener(this);
-
 		panelCalefaccion.add(btnClase11);
-
 		
-
 		btnClase13 = new JButton("");
-
 		btnClase13.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase13.setBackground(Color.RED);
-
 		btnClase13.setBounds(265, 165, 47, 14);
-
 		btnClase13.addActionListener(this);
-
 		panelCalefaccion.add(btnClase13);
-
 		
-
 		btnClase15 = new JButton("");
-
 		btnClase15.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase15.setBackground(Color.RED);
-
 		btnClase15.setBounds(265, 182, 47, 14);
-
 		btnClase15.addActionListener(this);
-
 		panelCalefaccion.add(btnClase15);
-
 		
-
 		btnClase16 = new JButton("");
-
 		btnClase16.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase16.setBackground(Color.RED);
-
 		btnClase16.setBounds(315, 180, 47, 14);
-
 		btnClase16.addActionListener(this);
-
 		panelCalefaccion.add(btnClase16);
-
 		
-
 		btnClase14 = new JButton("");
-
 		btnClase14.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase14.setBackground(Color.RED);
-
 		btnClase14.setBounds(315, 164, 47, 15);
-
 		btnClase14.addActionListener(this);
-
 		panelCalefaccion.add(btnClase14);
-
 		
-
 		btnClase12 = new JButton("");
-
 		btnClase12.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase12.setBackground(Color.RED);
-
 		btnClase12.setBounds(315, 147, 47, 16);
-
 		btnClase12.addActionListener(this);
-
 		panelCalefaccion.add(btnClase12);
-
 		
-
 		btnClase47 = new JButton("");
-
 		btnClase47.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase47.setBackground(Color.RED);
-
 		btnClase47.setBounds(320, 475, 47, 16);
-
 		btnClase47.addActionListener(this);
-
 		panelCalefaccion.add(btnClase47);
-
 		
-
 		btnClase21 = new JButton("");
-
 		btnClase21.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase21.setBackground(Color.RED);
-
 		btnClase21.setBounds(315, 222, 47, 14);
-
 		btnClase21.addActionListener(this);
-
 		panelCalefaccion.add(btnClase21);
-
 		
-
 		btnClase20 = new JButton("");
-
 		btnClase20.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase20.setBackground(Color.RED);
-
 		btnClase20.setBounds(265, 222, 47, 14);
-
 		btnClase20.addActionListener(this);
-
 		panelCalefaccion.add(btnClase20);
-
 		
-
 		btnClase22 = new JButton("");
-
 		btnClase22.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase22.setBackground(Color.RED);
-
 		btnClase22.setBounds(265, 237, 47, 14);
-
 		btnClase22.addActionListener(this);
-
 		panelCalefaccion.add(btnClase22);
-
 		
-
 		btnClase24 = new JButton("");
-
 		btnClase24.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase24.setBackground(Color.RED);
-
 		btnClase24.setBounds(265, 251, 47, 14);
-
 		btnClase24.addActionListener(this);
-
 		panelCalefaccion.add(btnClase24);
-
 		
-
 		btnClase25 = new JButton("");
-
 		btnClase25.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase25.setBackground(Color.RED);
-
 		btnClase25.setBounds(315, 251, 47, 14);
-
 		btnClase25.addActionListener(this);
-
 		panelCalefaccion.add(btnClase25);
-
 		
-
 		btnClase23 = new JButton("");
-
 		btnClase23.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase23.setBackground(Color.RED);
-
 		btnClase23.setBounds(315, 237, 47, 14);
-
 		btnClase23.addActionListener(this);
-
 		panelCalefaccion.add(btnClase23);
-
 		
-
 		btnClase26 = new JButton("");
-
 		btnClase26.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase26.setBackground(Color.RED);
-
 		btnClase26.setBounds(265, 304, 47, 16);
-
 		btnClase26.addActionListener(this);
-
 		panelCalefaccion.add(btnClase26);
-
 		
-
 		btnClase28 = new JButton("");
-
 		btnClase28.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase28.setBackground(Color.RED);
-
 		btnClase28.setBounds(265, 320, 47, 16);
-
 		btnClase28.addActionListener(this);
-
 		panelCalefaccion.add(btnClase28);
-
 		
-
 		btnClase30 = new JButton("");
-
 		btnClase30.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase30.setBackground(Color.RED);
-
 		btnClase30.setBounds(265, 336, 47, 16);
-
 		btnClase30.addActionListener(this);
-
 		panelCalefaccion.add(btnClase30);
-
 		
-
 		btnClase36 = new JButton("");
-
 		btnClase36.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase36.setBackground(Color.RED);
-
 		btnClase36.setBounds(265, 365, 47, 16);
-
 		btnClase36.addActionListener(this);
-
 		panelCalefaccion.add(btnClase36);
-
 		
-
 		btnClase38 = new JButton("");
-
 		btnClase38.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase38.setBackground(Color.RED);
-
 		btnClase38.setBounds(265, 381, 47, 14);
-
 		btnClase38.addActionListener(this);
-
 		panelCalefaccion.add(btnClase38);
-
 		
-
 		btnClase40 = new JButton("");
-
 		btnClase40.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase40.setBackground(Color.RED);
-
 		btnClase40.setBounds(265, 395, 47, 14);
-
 		btnClase40.addActionListener(this);
-
 		panelCalefaccion.add(btnClase40);
-
 		
-
 		btnClase42 = new JButton("");
-
 		btnClase42.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase42.setBackground(Color.RED);
-
 		btnClase42.setBounds(270, 444, 47, 16);
-
 		btnClase42.addActionListener(this);
-
 		panelCalefaccion.add(btnClase42);
-
 		
-
 		btnClase44 = new JButton("");
-
 		btnClase44.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase44.setBackground(Color.RED);
-
 		btnClase44.setBounds(270, 459, 47, 14);
-
 		btnClase44.addActionListener(this);
-
 		panelCalefaccion.add(btnClase44);
-
 		
-
 		btnClase46 = new JButton("");
-
 		btnClase46.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase46.setBackground(Color.RED);
-
 		btnClase46.setBounds(270, 473, 47, 16);
-
 		btnClase46.addActionListener(this);
-
 		panelCalefaccion.add(btnClase46);
-
 		
-
 		btnClase45 = new JButton("");
-
 		btnClase45.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase45.setBackground(Color.RED);
-
 		btnClase45.setBounds(320, 459, 47, 16);
-
 		btnClase45.addActionListener(this);
-
 		panelCalefaccion.add(btnClase45);
-
 		
-
 		btnClase43 = new JButton("");
-
 		btnClase43.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase43.setBackground(Color.RED);
-
 		btnClase43.setBounds(320, 444, 47, 16);
-
 		btnClase43.addActionListener(this);
-
 		panelCalefaccion.add(btnClase43);
-
 		
-
 		btnClase41 = new JButton("");
 		btnClase41.setFont(new Font("Tahoma", Font.PLAIN, 9));
 		btnClase41.setBackground(Color.RED);
@@ -1206,7 +898,7 @@ public class Index extends JFrame implements ActionListener{
 		btnClase39.setBounds(315, 378, 47, 16);
 		btnClase39.addActionListener(this);
 		panelCalefaccion.add(btnClase39);
-
+		
 		btnClase37 = new JButton("");
 		btnClase37.setFont(new Font("Tahoma", Font.PLAIN, 9));
 		btnClase37.setBackground(Color.RED);
@@ -1290,8 +982,8 @@ public class Index extends JFrame implements ActionListener{
 				calefactores.add(btnClase46);
 				calefactores.add(btnClase47);
 				calefactores.add(btnClase48);
-		
-				//Llenado arraylist Alarmas
+				
+		//Llenado arraylist Alarmas
 				alarmas.add(btnClaseAlarma1);
 				alarmas.add(btnClaseAlarma2);
 				alarmas.add(btnClaseAlarma3);
@@ -1340,8 +1032,7 @@ public class Index extends JFrame implements ActionListener{
 				alarmas.add(btnClaseAlarma46);
 				alarmas.add(btnClaseAlarma47);
 				alarmas.add(btnClaseAlarma48);
-				
-		
+					
 		//ActionLIsteners
 		btnAlarmas.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -1411,16 +1102,12 @@ public class Index extends JFrame implements ActionListener{
 			}
 		});	
 	}
-	
 	@Override
 	public void actionPerformed(ActionEvent ae) {
 		// TODO Auto-generated method stub
 		actualizarCale(ae);
 
 	}
-
-	
-
 	//Funciones
 	public void actualizarCale(ActionEvent ae) {
 
@@ -1447,9 +1134,7 @@ public class Index extends JFrame implements ActionListener{
 		
 		actualizarBD(indice+1, estado);
 	};
-
 	
-
 	public void actualizarBD(int idAula, int estado) {		
 
 		try{
@@ -1472,7 +1157,8 @@ public class Index extends JFrame implements ActionListener{
 
 			konexioa.close();
 
-			} catch (SQLException sqle){
+			} 
+		catch (SQLException sqle){
 
 				// ez baldin bada konexioa era egokian egin
 
@@ -1480,7 +1166,6 @@ public class Index extends JFrame implements ActionListener{
 
 				System.out.println("Konexio errorea");
 
-			}
+		}
 	}
-	
 }
