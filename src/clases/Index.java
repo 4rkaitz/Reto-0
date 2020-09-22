@@ -1101,7 +1101,7 @@ public class Index extends JFrame implements ActionListener{
 							int estado =rs.getInt("Calefacion");
 
 							if (estado == 1) {
-								calefactores.get(activeA).setBackground(Color.GREEN);
+								calefactores.get(activeA-1).setBackground(Color.GREEN);
 							}
 
 						}while(rs.next());
