@@ -1194,60 +1194,32 @@ public class Index extends JFrame implements ActionListener{
 		
 
 		btnClase41 = new JButton("");
-
 		btnClase41.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase41.setBackground(Color.RED);
-
 		btnClase41.setBounds(315, 395, 47, 16);
-
 		btnClase41.addActionListener(this);
-
 		panelCalefaccion.add(btnClase41);
 
-		
-
 		btnClase39 = new JButton("");
-
 		btnClase39.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase39.setBackground(Color.RED);
-
 		btnClase39.setBounds(315, 378, 47, 16);
-
 		btnClase39.addActionListener(this);
-
 		panelCalefaccion.add(btnClase39);
 
-		
-
 		btnClase37 = new JButton("");
-
 		btnClase37.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase37.setBackground(Color.RED);
-
 		btnClase37.setBounds(315, 365, 47, 16);
-
 		btnClase37.addActionListener(this);
-
 		panelCalefaccion.add(btnClase37);
 
-		
-
 		btnClase27 = new JButton("");
-
 		btnClase27.setFont(new Font("Tahoma", Font.PLAIN, 9));
-
 		btnClase27.setBackground(Color.RED);
-
 		btnClase27.setBounds(315, 304, 47, 16);
-
 		btnClase27.addActionListener(this);
-
 		panelCalefaccion.add(btnClase27);
-
-		
 
 		btnClase29 = new JButton("");
 		btnClase29.setFont(new Font("Tahoma", Font.PLAIN, 9));
@@ -1261,6 +1233,7 @@ public class Index extends JFrame implements ActionListener{
 		btnClase31.setBackground(Color.RED);
 		btnClase31.setBounds(315, 336, 47, 16);
 		btnClase31.addActionListener(this);
+		panelCalefaccion.add(btnClase31);
 		
 		lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setIcon(new ImageIcon("img/Calefacciones.png"));
